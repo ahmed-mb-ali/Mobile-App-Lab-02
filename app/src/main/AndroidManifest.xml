@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmedali_comp304sec003_lab2_ex1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LeaseOrRentHome Inc."
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ahmedali_COMP304Sec003_Lab2_Ex1">
+        <activity
+            android:name=".GetHomeTypes"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".FinalOrder"
+            android:exported="false" />
+        <activity
+            android:name=".CheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".TownHouse"
+            android:exported="false" />
+        <activity
+            android:name=".Condominium"
+            android:exported="false" />
+        <activity
+            android:name=".SemiDetachedHome"
+            android:exported="false" />
+        <activity
+            android:name=".DetachedHome"
+            android:exported="false" />
+        <activity
+            android:name=".Apartments"
+            android:exported="false" />
+        <activity
+            android:name=".HomeTypes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

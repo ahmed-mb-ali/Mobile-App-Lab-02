@@ -1,0 +1,55 @@
+<!-- Ahmed Ali -->
+
+<resources>
+    <string name="app_name">ahmedali_COMP304Sec003_Lab2_Ex1</string>
+
+
+    <!-- Apartments -->
+    <string name="txt_apartment1">270 Wellington Street W, Toronto, ON\n$2,500 CAD</string>
+    <string name="txt_apartment2">33 University Avenue, Toronto, ON\n$2,950 CAD</string>
+    <string name="txt_apartment3">135 East Liberty Street, Toronto, ON\n$2,250 CAD</string>
+
+    <!-- Condo -->
+    <string name="txt_condo1">800 Spadina Road, Toronto, ON\n$649,000 CAD</string>
+    <string name="txt_condo2">1100 Briar Hill Avenue, Toronto, ON\n$750,000 CAD</string>
+    <string name="txt_condo3">135 East Liberty Street, Toronto,ON\n$2,250 CAD</string>
+
+    <!-- Detached -->
+    <string name="txt_detached1">103 Denton Ave, Toronto, ON\n$799,000 CAD</string>
+    <string name="txt_detached2">355 Culford Rd, Toronto, ON\n$899,000 CAD</string>
+    <string name="txt_detached3">135 East Liberty Street, Toronto, ON\n$2,250 CAD</string>
+
+    <!-- Semi Detached -->
+    <string name="txt_SemiDetached1">26 MIAMI GRVE, Brampton, ON\n$999,999 CAD</string>
+    <string name="txt_SemiDetached2">200 VETERANS DR, Brampton,ON\n$799,000 CAD</string>
+    <string name="txt_SemiDetached3">86 MOREGATE CRES, Brampton, ON\n$749,000 CAD</string>
+
+    <!-- Town House -->
+    <string name="txt_TownHouse1">124 Ascot Avenue, Toronto, ON\n$1,050,000 CAD</string>
+    <string name="txt_TownHouse2">174 Horseley Hill Drive, Toronto,ON\n$839,000 CAD</string>
+    <string name="txt_TownHouse3">7 Rushley Drive, Toronto, ON\n$888,000 CAD</string>
+
+
+    <!-- String Name Apartments -->
+    <string name="string_apartment1">270 Wellington Street W, Toronto, ON</string>
+    <string name="string_apartment2">33 University Avenue, Toronto, ON</string>
+    <string name="string_apartment3">135 East Liberty Street, Toronto, ON</string>
+
+    <!--String Name Condo -->
+    <string name="string_condo1">800 Spadina Road, Toronto, ON</string>
+    <string name="string_condo2">1100 Briar Hill Avenue, Toronto, ON</string>
+    <string name="string_condo3">135 East Liberty Street, Toronto,ON</string>
+
+
+    <string name="PaymentNotSelected">Payment type ia not selected ! </string>
+
+    <!-- Final Order Info -->
+    <string name="SetThankYou1">Thank you\ </string>
+    <string name="SetThankYou2">\ for your purchase! We would love to see you again!</string>
+
+
+    <string name="SetAddress">Address: \</string>
+    <string name="SetPrice">\nPrice: $</string>
+
+
+</resources>

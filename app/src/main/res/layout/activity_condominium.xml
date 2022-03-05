@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageCondo1"
+            android:layout_width="338dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/condo_1" />
+
+        <TextView
+            android:id="@+id/textViewCondo1"
+            style="@style/DisplayTxt"
+            android:layout_width="363dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="@string/txt_condo1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCondo1"
+            app:layout_constraintVertical_bias="0.009" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoVChbx1"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:text="Virtually"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCondo1" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoPChbx1"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="Physically"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCondoVChbx1" />
+
+
+        <ImageView
+            android:id="@+id/imageCondo2"
+            android:layout_width="270dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxAptPChbx1"
+            app:srcCompat="@drawable/condo_2" />
+
+        <TextView
+            android:id="@+id/textViewCondo2"
+            style="@style/DisplayTxt"
+            android:text="@string/txt_condo2"
+            android:layout_width="363dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCondo2" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoPChbx2"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:text="Physically"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCondo2" />
+
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoVChbx2"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="Virtually"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCondoPChbx2" />
+
+        <ImageView
+            android:id="@+id/imageCondo3"
+            android:layout_width="292dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_gravity="center"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCondoVChbx2"
+            app:srcCompat="@drawable/condo_3" />
+
+        <TextView
+            android:id="@+id/textViewCondo3"
+            style="@style/DisplayTxt"
+            android:text="@string/txt_condo3"
+            android:layout_width="363dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageCondo3" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoPChbx3"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:text="Physically"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCondo3" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCondoVChbx3"
+            android:layout_width="156dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="8dp"
+            android:text="Virtually"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxCondoPChbx3" />
+
+        <Button
+            android:id="@+id/buttonCondoNext"
+            android:layout_width="211dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.551"
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="next_condo_event" />
+
+    </LinearLayout>
+
+</ScrollView>

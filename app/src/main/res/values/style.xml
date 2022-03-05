@@ -1,0 +1,16 @@
+<!-- Ahmed Ali -->
+<resources>
+
+    <!--Text Style -->
+    <style name="DisplayTxt">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/custom_blue</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+
+
+
+
+</resources>
